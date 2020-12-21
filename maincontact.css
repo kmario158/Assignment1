@@ -25,17 +25,9 @@ main{
 ul{
     list-style: none;
     text-align: center;
-    line-height: 6em;
 }
 footer{
     grid-area: footer;
     background-color: #312728;
     color: #ffffff;
 }
-a {
-    color: #000000;
-}
-.close{
-    display: none;
-}
-
