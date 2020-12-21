@@ -24,7 +24,7 @@ main{
 }
 ul{
     list-style: none;
-    line-height:6em;
+    line-height:7em;
 }
 footer{
     grid-area: footer;
@@ -39,6 +39,6 @@ a {
 }
 textarea{
     margin:3em;
-    height:30vh;
-    width:50vh;
+    height:50vh;
+    width:100vh;
 }
