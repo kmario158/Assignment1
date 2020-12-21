@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+.shownav{
+    height: 0.8em;
+    width: 1.2em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
+}
+.shownav:before{
+    content:'';
+    position: absolute;
+    width: 1.2em;
+    top: 10.6em;
+    left: 0.5em;
+    border-top: 0.2em solid white;
+}
+nav {
+    display: none;
+    position: fixed;
+ top: 0;
+ right: 50%;
+ width: 50%;
+ height: 60vh;
+}
+#clicked:target{
+    display: block;
+
+}
+.close{
+    display: block;
+}
+ul{
+    line-height: 3em;
+    font-size:large;
+}
