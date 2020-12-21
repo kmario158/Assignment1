@@ -20,9 +20,12 @@ main{
     grid-area: main;
     background-color: #ACB5C6;
     text-align: center;
+    min-height: 80vh;
 }
 ul{
     list-style: none;
+    text-align: center;
+    line-height: 7em;
 }
 footer{
     grid-area: footer;
