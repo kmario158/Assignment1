@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "main main" "footer footer";
+    font-family: 'Ubuntu', sans-serif;
+}
+.shownav{
+    height: 0.8em;
+    width: 1.2em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
+}
+.shownav:before{
+    content:'';
+    position: absolute;
+    width: 1.7em;
+    top: 8.3em;
+    left: 0px;
+    border-top: 0.2em solid white;
+}
+nav {
+    display: none;
+    position: fixed;
+ top: 0;
+ right: 50%;
+ width: 50%;
+ height: 30vh;
+
+}
+#clicked:target{
+    display: block;
+
+}
+.close{
+    display: block;
+}

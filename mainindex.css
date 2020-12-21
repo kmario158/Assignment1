@@ -25,7 +25,7 @@ main{
 ul{
     list-style: none;
     text-align: center;
-    line-height: 7em;
+    line-height: 6em;
 }
 footer{
     grid-area: footer;
@@ -35,3 +35,7 @@ footer{
 a {
     color: #000000;
 }
+.close{
+    display: none;
+}
+
