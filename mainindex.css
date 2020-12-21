@@ -21,3 +21,6 @@ main{
     background-color: #ACB5C6;
     text-align: center;
 }
+ul{
+    list-style: none;
+}
