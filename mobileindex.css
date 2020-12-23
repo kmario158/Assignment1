@@ -30,7 +30,6 @@ nav {
 }
 #clicked:target{
     display: block;
-
 }
 .close{
     display: block;
