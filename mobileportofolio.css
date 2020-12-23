@@ -2,3 +2,37 @@ img{
     height: 18vh;
     width: 30vh;
 }
+.shownav{
+    height: 0.9em;
+    width: 1.2em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.1em;
+}
+.shownav:before{
+    content:'';
+    position: absolute;
+    width: 1.2em;
+    top: 10.7em;
+    left: 1.5em;
+    border-top: 0.2em solid white;
+}
+.close {
+    display: block;
+}
+nav{
+    display:none;
+}
+
+#clicked:target{
+    display: block;
+}
+a{
+    color: #000000;
+    float: left;
+    margin: 1em;
+    width: 40%;
+    height: 10vh;
+    text-align: center;
+}
