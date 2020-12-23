@@ -20,3 +20,8 @@ main{
 h3{
     text-align: center;
 }
+footer{
+    grid-area: footer;
+    background-color: #312728;
+    color: #ffffff;
+}
