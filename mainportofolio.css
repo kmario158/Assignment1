@@ -1,6 +1,6 @@
 
-    body {
-        background-color: #777777;
+body {
+     background-color: #777777;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
@@ -46,4 +46,7 @@ a{
     width: 25%;
     height: 5vh;
     text-align: center;
+}
+a:hover{
+    background-color:#312f2f;
 }
