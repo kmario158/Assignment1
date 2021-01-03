@@ -27,6 +27,7 @@ nav {
  right: 50%;
  width: 50%;
  height: 60vh;
+
 }
 #clicked:target{
     display: block;
