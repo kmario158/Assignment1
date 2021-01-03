@@ -1,16 +1,8 @@
-.shownav{
-    height: 0.9em;
-    width: 1.2em;
-    display: block;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
-    border-radius: 0.1em;
-}
-.shownav:before{
-    content:'';
-    position: absolute;
-    width: 1.2em;
-    top: 7.4em;
-    left: 0.5em;
-    border-top: 0.2em solid white;
+nav{
+    background-color: #534F50;
+   display: none;
+   position: fixed;
+   top: 6em;
+   width: 50%;
+   height: 65vh;
 }

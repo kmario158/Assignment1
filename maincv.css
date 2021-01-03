@@ -1,9 +1,9 @@
 body {
     background-color: #777777;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "header header" "main main" "footer footer";
+    grid-template-areas: "header" "main" "footer";
     font-family: 'Ubuntu', sans-serif;
 }
 header{
