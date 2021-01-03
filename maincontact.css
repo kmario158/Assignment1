@@ -18,7 +18,7 @@ nav{
 }
 main{
     grid-area: main;
-    background-color: #ACB5C6;
+    background-color: #F1EED9;
     text-align: center;
     min-height: 80vh;
 }
@@ -41,4 +41,29 @@ textarea{
     margin:3em;
     height:50vh;
     width:100vh;
+}
+.form {
+    background-color: #ffffff;
+    padding: 1em;
+}
+.form h2{
+    background-color: #534F50;
+    color: #ffffff;
+    padding: 0.5em;
+}
+.form input{
+    display: block;
+	width: 100%;
+	padding: 0.5em;
+	border: none;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 1.5em;
+}
+nav > h2{
+    text-align: center;
+    padding:0.5em;
+    border-radius: 0.3em 0.3em;
+}
+li:hover{
+    background-color:#312f2f;
 }

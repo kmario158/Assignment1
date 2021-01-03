@@ -12,15 +12,20 @@ header{
     text-align: center;
     grid-area: header;
 }
+P{
+    font-size: large;
+}
 nav{
     grid-area: nav;
     background-color: #534F50;
 }
 main{
     grid-area: main;
-    background-color: #ACB5C6;
+    background-color: #F1EED9;
     text-align: center;
     min-height: 80vh;
+    background-image: url("mariobackground.jpg");
+    background-size: 116em;
 }
 ul{
     list-style: none;
@@ -37,5 +42,14 @@ a {
 }
 .close{
     display: none;
+}
+li:hover{
+    background-color:#312f2f;
+}
+nav > h3{
+    text-align: center;
+}
+li{
+    text-align: center;
 }
 
