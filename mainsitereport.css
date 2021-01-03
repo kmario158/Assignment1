@@ -1,0 +1,32 @@
+body {
+    background-color: #777777;
+       display: grid;
+       grid-template-columns: 100%;
+       grid-template-rows: auto;
+       grid-template-areas: "header" "main" "footer";
+       font-family: 'Ubuntu', sans-serif;
+   }
+header{
+   color: #ffffff;
+   background-color: #3B3130;
+   text-align: center;
+   grid-area: header;
+}
+main{
+   grid-area: main;
+   background-color: #F1EED9;
+}
+
+footer{
+   grid-area: footer;
+   background-color: #312728;
+   color: #ffffff;
+}
+p{
+    padding: 1em;
+}
+h1, h2{
+    text-align: center;
+    background-color: #3B3130;
+    color: #ffffff;
+}
