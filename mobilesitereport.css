@@ -39,3 +39,8 @@ ul{
 .close{
     display: block;
 }
+img{
+    width: 40vh;
+   height: 20vh;
+   margin: 0.5em;
+}
