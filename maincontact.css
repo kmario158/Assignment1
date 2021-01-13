@@ -43,12 +43,12 @@ textarea{
     width:100vh;
 }
 .form {
-    background-color: #ffffff;
+    background-color:#F1EED9;
     padding: 1em;
 }
 .form h2{
     background-color: #534F50;
-    color: #ffffff;
+    color:#F1EED9;
     padding: 0.5em;
 }
 .form input{
